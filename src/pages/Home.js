@@ -20,7 +20,7 @@ const getStockQuote = (symbol) => (
 	})
 );
 
-const Home = (props) => {
+const Home = () => {
 	const [stocks, setStocks] = useState([]);
 	const [price, setPrice] = useState("");
 	// to do: in stocks.map call new component, <Stock />
